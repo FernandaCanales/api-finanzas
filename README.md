@@ -1,4 +1,4 @@
-# 💰 API REST — Finanzas Personales
+# API REST — Finanzas Personales
 
 API RESTful para gestionar transacciones financieras personales (ingresos y egresos), desarrollada con **Hono + Node.js + TypeScript**.
 
@@ -35,7 +35,7 @@ yarn dev
 
 El servidor quedará corriendo en `http://localhost:3000`
 
-## 📌 Endpoints
+##  Endpoints
 
 | Método | Ruta | Descripción |
 |--------|------|-------------|
@@ -45,7 +45,7 @@ El servidor quedará corriendo en `http://localhost:3000`
 | PUT | `/transactions/:id` | Actualizar una transacción |
 | DELETE | `/transactions/:id` | Eliminar una transacción |
 
-## 🧩 Modelo de datos
+##  Modelo de datos
 
 ```typescript
 type Transaction = {
@@ -56,7 +56,7 @@ type Transaction = {
 }
 ```
 
-## 🤖 Uso de IA
+##  Uso de IA
 
 Durante el desarrollo se utilizó **Claude (Anthropic)** como asistente.
 
@@ -76,10 +76,10 @@ Durante el desarrollo se utilizó **Claude (Anthropic)** como asistente.
 
 Claude me guió paso a paso explicando cada concepto antes de escribir el código, lo que me permitió entender qué hacía cada línea y no solo copiar y pegar.
 
-## 🎥 Video demostrativo
+## Video demostrativo
 
 [(https://youtu.be/BDT_gcX2a3g)]
 
-## 👩‍💻 Autora
+##  Autora
 
 Fernanda Canales — Desarrollo de Software Web II — Trimestre 6
